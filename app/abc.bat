@@ -1,0 +1,11 @@
+@echo off
+md index-2
+echo.> index-2\page.js
+md about
+echo.> about\page.js
+md service
+echo.> service\page.js
+md portfolio
+echo.> portfolio\page.js
+md contact
+echo.> contact\page.js
