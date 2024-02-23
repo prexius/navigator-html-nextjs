@@ -45,9 +45,9 @@ export default function Footer() {
                     </div> {/* end container */}
                 </div>
                 <div className="footer-bottom">
-                    <h5>Copyright 2017. All rights reserved.</h5>
-                    <h6>Design and Developed by <a href="https://themefisher.com/" target="_blank">Themefisher</a>. Get more
-                        bootstrap template form our <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a></h6>
+                    <h5>Copyright {new Date().getFullYear()}. All rights reserved.</h5>
+                    <h6>Design and Developed by <a href="/https://themefisher.com/" target="_blank">Themefisher</a>. Get more
+                        bootstrap template form our <a href="/https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a></h6>
                 </div>
             </footer>
 

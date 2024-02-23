@@ -1,6 +1,7 @@
 
 
 import Layout from "@/components/layout/Layout"
+import Link from "next/link"
 
 
 export default function Portfolio() {
@@ -35,67 +36,67 @@ export default function Portfolio() {
                             <div className="row filtr-container">
                                 <div className="col-md-4 col-sm-6 p-0 filtr-item" data-category="design">
                                     <div className="portfolio-block">
-                                        <img className="img-fluid" src="/images/portfolio/portfolio-1.jpg" alt />
+                                        <img className="img-fluid" src="/images/portfolio/portfolio-1.jpg" alt="" />
                                         <div className="caption">
-                                            <a className="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                                            <Link className="search-icon" href="/images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
                                                 <i className="tf-ion-ios-search-strong" />
-                                            </a>
-                                            <h4><a href>AirBnB Postcard</a></h4>
+                                            </Link>
+                                            <h4><Link href="#">AirBnB Postcard</Link></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-6 p-0 filtr-item" data-category="design, ios">
                                     <div className="portfolio-block ">
-                                        <img className="img-fluid" src="/images/portfolio/portfolio-2.jpg" alt />
+                                        <img className="img-fluid" src="/images/portfolio/portfolio-2.jpg" alt="" />
                                         <div className="caption">
-                                            <a className="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                                            <Link className="search-icon" href="/images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
                                                 <i className="tf-ion-ios-search-strong" />
-                                            </a>
-                                            <h4><a href>AirBnB Postcard</a></h4>
+                                            </Link>
+                                            <h4><Link href="#">AirBnB Postcard</Link></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-6 p-0 filtr-item" data-category="photography, development">
                                     <div className="portfolio-block">
-                                        <img className="img-fluid" src="/images/portfolio/portfolio-3.jpg" alt />
+                                        <img className="img-fluid" src="/images/portfolio/portfolio-3.jpg" alt="" />
                                         <div className="caption">
-                                            <a className="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                                            <Link className="search-icon" href="/images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
                                                 <i className="tf-ion-ios-search-strong" />
-                                            </a>
-                                            <h4><a href>AirBnB Postcard</a></h4>
+                                            </Link>
+                                            <h4><Link href="#">AirBnB Postcard</Link></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-6 p-0 filtr-item" data-category="photography, ios">
                                     <div className="portfolio-block">
-                                        <img className="img-fluid" src="/images/portfolio/portfolio-4.jpg" alt />
+                                        <img className="img-fluid" src="/images/portfolio/portfolio-4.jpg" alt="" />
                                         <div className="caption">
-                                            <a className="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                                            <Link className="search-icon" href="/images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
                                                 <i className="tf-ion-ios-search-strong" />
-                                            </a>
-                                            <h4><a href>AirBnB Postcard</a></h4>
+                                            </Link>
+                                            <h4><Link href="#">AirBnB Postcard</Link></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-6 p-0 filtr-item" data-category="design">
                                     <div className="portfolio-block">
-                                        <img className="img-fluid" src="/images/portfolio/portfolio-5.jpg" alt />
+                                        <img className="img-fluid" src="/images/portfolio/portfolio-5.jpg" alt="" />
                                         <div className="caption">
-                                            <a className="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                                            <Link className="search-icon" href="/images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
                                                 <i className="tf-ion-ios-search-strong" />
-                                            </a>
-                                            <h4><a href>AirBnB Postcard</a></h4>
+                                            </Link>
+                                            <h4><Link href="#">AirBnB Postcard</Link></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-6 p-0 filtr-item" data-category="design, development">
                                     <div className="portfolio-block">
-                                        <img className="img-fluid" src="/images/portfolio/portfolio-1.jpg" alt />
+                                        <img className="img-fluid" src="/images/portfolio/portfolio-1.jpg" alt="" />
                                         <div className="caption">
-                                            <a className="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                                            <Link className="search-icon" href="/images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
                                                 <i className="tf-ion-ios-search-strong" />
-                                            </a>
-                                            <h4><a href>Photography Website</a></h4>
+                                            </Link>
+                                            <h4><Link href="#">Photography Website</Link></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -176,7 +177,7 @@ Start About Section
                                             {/* /client info */}
                                             {/* client photo */}
                                             <div className="client-thumb">
-                                                <img src="/images/client-logo/clients-1.jpg" className="img-fluid" alt />
+                                                <img src="/images/client-logo/clients-1.jpg" className="img-fluid" alt="" />
                                             </div>
                                             <div className="client-meta">
                                                 <h4>Matt Cutts</h4>
@@ -197,7 +198,7 @@ Start About Section
                                             {/* /client info */}
                                             {/* client photo */}
                                             <div className="client-thumb">
-                                                <img src="/images/client-logo/clients-2.jpg" className="img-fluid" alt />
+                                                <img src="/images/client-logo/clients-2.jpg" className="img-fluid" alt="" />
                                             </div>
                                             <div className="client-meta">
                                                 <h4>Elon Musk</h4>
@@ -218,7 +219,7 @@ Start About Section
                                             {/* /client info */}
                                             {/* client photo */}
                                             <div className="client-thumb">
-                                                <img src="/images/client-logo/clients-1.jpg" className="img-fluid" alt />
+                                                <img src="/images/client-logo/clients-1.jpg" className="img-fluid" alt="" />
                                             </div>
                                             <div className="client-meta">
                                                 <h4>Jonathon Ive</h4>

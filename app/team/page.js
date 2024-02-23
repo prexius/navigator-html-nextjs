@@ -1,4 +1,5 @@
 import Layout from '@/components/layout/Layout'
+import Link from 'next/link'
 
 export default function Team() {
     return (
@@ -32,7 +33,7 @@ export default function Team() {
                                         </p></div>
                                 </div>
                                 <div className="col-md-5 order-md-2 order-1">
-                                    <img src="/images/about/about-2.jpg" className="img-fluid rounded shadow w-100" alt />
+                                    <img src="/images/about/about-2.jpg" className="img-fluid rounded shadow w-100" alt="" />
                                 </div>
                             </div> {/* End row */}
                         </div> {/* End container */}
@@ -67,24 +68,24 @@ export default function Team() {
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
                                             <ul className="list-inline">
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-facebook" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-twitter" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-google-outline" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-dribbble" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -107,24 +108,24 @@ export default function Team() {
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
                                             <ul className="list-inline">
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-facebook" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-twitter" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-google-outline" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-dribbble" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -147,24 +148,24 @@ export default function Team() {
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
                                             <ul className="list-inline">
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-facebook" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-twitter" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-google-outline" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-dribbble" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -187,24 +188,24 @@ export default function Team() {
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
                                             <ul className="list-inline">
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-facebook" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-twitter" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-google-outline" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-dribbble" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -238,7 +239,7 @@ export default function Team() {
                                             {/* /client info */}
                                             {/* client photo */}
                                             <div className="client-thumb">
-                                                <img src="/images/client-logo/clients-1.jpg" className="img-fluid" alt />
+                                                <img src="/images/client-logo/clients-1.jpg" className="img-fluid" alt="" />
                                             </div>
                                             <div className="client-meta">
                                                 <h4>Matt Cutts</h4>
@@ -259,7 +260,7 @@ export default function Team() {
                                             {/* /client info */}
                                             {/* client photo */}
                                             <div className="client-thumb">
-                                                <img src="/images/client-logo/clients-2.jpg" className="img-fluid" alt />
+                                                <img src="/images/client-logo/clients-2.jpg" className="img-fluid" alt="" />
                                             </div>
                                             <div className="client-meta">
                                                 <h4>Elon Musk</h4>
@@ -280,7 +281,7 @@ export default function Team() {
                                             {/* /client info */}
                                             {/* client photo */}
                                             <div className="client-thumb">
-                                                <img src="/images/client-logo/clients-1.jpg" className="img-fluid" alt />
+                                                <img src="/images/client-logo/clients-1.jpg" className="img-fluid" alt="" />
                                             </div>
                                             <div className="client-meta">
                                                 <h4>Jonathon Ive</h4>

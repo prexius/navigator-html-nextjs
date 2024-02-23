@@ -1,5 +1,7 @@
 
+import CommomTab from "@/components/elements/CommomTab"
 import Layout from "@/components/layout/Layout"
+import Link from "next/link"
 
 
 export default function About() {
@@ -34,63 +36,7 @@ export default function About() {
                             </div>
                             <div className="row">
                                 <div className="col-md-12">
-                                    <div className="commonTab">
-                                        <ul className="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-                                            <li className="nav-item">
-                                                <a className="nav-link active" id="home-tab" data-toggle="tab" href="#philosophy" role="tab" aria-controls="philosophy" aria-selected="true">Our Philosophy</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" id="profile-tab" data-toggle="tab" href="#mission" role="tab" aria-controls="mission" aria-selected="false">mission</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" id="contact-tab" data-toggle="tab" href="#vision" role="tab" aria-controls="vision" aria-selected="false">vision</a>
-                                            </li>
-                                        </ul>
-                                        <div className="tab-content" id="myTabContent">
-                                            <div className="tab-pane fade show active" id="philosophy" role="tabpanel" aria-labelledby="home-tab">
-                                                <div className="row">
-                                                    <div className="col-md-6 align-self-center">
-                                                        <h2>We Create Designs<br /> and technology</h2>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus
-                                                            dolor harum voluptatibus modi dicta ducimus.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat
-                                                            cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
-                                                    </div>
-                                                    <div className="col-md-6">
-                                                        <img className="img-fluid rounded shadow " src="/images/company/company-image.jpg" alt />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="profile-tab">
-                                                <div className="row">
-                                                    <div className="col-md-6 align-self-center">
-                                                        <h2>Our Mission</h2>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus
-                                                            dolor harum voluptatibus modi dicta ducimus.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat
-                                                            cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
-                                                    </div>
-                                                    <div className="col-md-6">
-                                                        <img className="img-fluid rounded shadow mt-20" src="/images/company/company-image-2.jpg" alt />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="contact-tab">
-                                                <div className="row">
-                                                    <div className="col-md-6 align-self-center">
-                                                        <h2>Our Vision</h2>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus
-                                                            dolor harum voluptatibus modi dicta ducimus.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat
-                                                            cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
-                                                    </div>
-                                                    <div className="col-md-6">
-                                                        <img className="img-fluid rounded shadow mt-20" src="/images/company/company-image-3.jpg" alt />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <CommomTab />
                                 </div>
                             </div>
                         </div>
@@ -125,24 +71,24 @@ export default function About() {
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
                                             <ul className="list-inline">
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-facebook" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-twitter" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-google-outline" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-dribbble" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -165,24 +111,24 @@ export default function About() {
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
                                             <ul className="list-inline">
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-facebook" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-twitter" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-google-outline" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-dribbble" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -205,24 +151,24 @@ export default function About() {
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
                                             <ul className="list-inline">
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-facebook" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-twitter" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-google-outline" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-dribbble" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -245,24 +191,24 @@ export default function About() {
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
                                             <ul className="list-inline">
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-facebook" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-twitter" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-google-outline" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <a href="#">
+                                                    <Link href="#">
                                                         <i className="tf-ion-social-dribbble" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -285,7 +231,7 @@ Start Call To Action
                                 <div className="col-md-12 text-center">
                                     <h2>Let's Create Something Together</h2>
                                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br /> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit.</p>
-                                    <a href="contact.html" className="btn btn-main">Contact Us</a>
+                                    <Link href="/contact.html" className="btn btn-main">Contact Us</Link>
                                 </div>
                             </div> 		{/* End row */}
                         </div>   	{/* End container */}

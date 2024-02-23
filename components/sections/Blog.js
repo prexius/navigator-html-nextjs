@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 export default function Blog() {
@@ -24,10 +25,10 @@ export default function Blog() {
                                     <img className="img-fluid shadow rounded" src="/images/blog/post-1.jpg" alt="Generic placeholder image" />
                                 </div>
                                 <div className="post-title">
-                                    <h3 className="mt-0"><a href>Ten things about Business</a></h3>
+                                    <h3 className="mt-0"><Link href="#">Ten things about Business</Link></h3>
                                 </div>
                                 <div className="post-meta">
-                                    <span>By</span> <a href className>Jonathon Ive</a>
+                                    <span>By</span> <Link href="#">Jonathon Ive</Link>
                                 </div>
                                 <div className="post-content">
                                     <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
@@ -36,7 +37,7 @@ export default function Blog() {
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est voluptatem accusantium
                                         dolorum, maxime eos blanditiis sint enim necessitatibus placeat dolor.</p>
                                 </div>
-                                <a className="btn btn-main" href="#">Read more</a>
+                                <Link className="btn btn-main" href="#">Read more</Link>
                             </div>
                         </article>
                         {/* /single blog post */}
@@ -47,12 +48,12 @@ export default function Blog() {
                                     <img className="img-fluid shadow rounded" src="/images/blog/post-2.jpg" alt="Generic placeholder image" />
                                 </div>
                                 <div className="post-title">
-                                    <h3 className="mt-0"><a href>Something I need to tell you</a></h3>
+                                    <h3 className="mt-0"><Link href="#">Something I need to tell you</Link></h3>
                                 </div>
                                 <div className="post-meta">
                                     <ul className="list-inline">
                                         <li className="list-inline-item">
-                                            <span>By</span> <a href className>Jonathon Ive</a>
+                                            <span>By</span> <Link href="#">Jonathon Ive</Link>
                                         </li>
                                         <li className="list-inline-item">
                                             <span>By</span> <span> 15th December 2017</span>
@@ -66,7 +67,7 @@ export default function Blog() {
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est voluptatem accusantium
                                         dolorum, maxime eos blanditiis sint enim necessitatibus placeat dolor.</p>
                                 </div>
-                                <a className="btn btn-main" href="#">Read more</a>
+                                <Link className="btn btn-main" href="#">Read more</Link>
                             </div>
                         </article>
                         {/* end single blog post */}
@@ -77,12 +78,12 @@ export default function Blog() {
                                     <img className="img-fluid shadow rounded" src="/images/blog/post-3.jpg" alt="Generic placeholder image" />
                                 </div>
                                 <div className="post-title">
-                                    <h3 className="mt-0"><a href>Are you doing the Right Way?</a></h3>
+                                    <h3 className="mt-0"><Link href="#">Are you doing the Right Way?</Link></h3>
                                 </div>
                                 <div className="post-meta">
                                     <ul className="list-inline">
                                         <li className="list-inline-item">
-                                            <span>By</span> <a href className>Jonathon Ive</a>
+                                            <span>By</span> <Link href="#">Jonathon Ive</Link>
                                         </li>
                                         <li className="list-inline-item">
                                             <span>By</span> <span> 15th December 2017</span>
@@ -96,7 +97,7 @@ export default function Blog() {
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est voluptatem accusantium
                                         dolorum, maxime eos blanditiis sint enim necessitatibus placeat dolor.</p>
                                 </div>
-                                <a className="btn btn-main" href="#">Read more</a>
+                                <Link className="btn btn-main" href="#">Read more</Link>
                             </div>
                         </article>
                         {/* end single blog post */}

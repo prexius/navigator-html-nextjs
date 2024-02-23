@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Breadcrumb({ breadcrumb}) {
+export default function Breadcrumb({ breadcrumb }) {
     return (
         <>
             <section className="single-page-header">

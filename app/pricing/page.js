@@ -1,9 +1,10 @@
 import Layout from '@/components/layout/Layout'
+import Link from 'next/link'
 
 export default function Pricing() {
     return (
         <>
-            <Layout  breadcrumb="Pricing">
+            <Layout breadcrumb="Pricing">
                 <div>
                     <section className="about-2 section bg-gray" id="about">
                         <div className="container">
@@ -54,7 +55,7 @@ export default function Pricing() {
                                         </ul>
                                         {/* /plan description */}
                                         {/* signup button */}
-                                        <a className="btn btn-main" href="#">Signup</a>
+                                        <Link className="btn btn-main" href="#">Signup</Link>
                                         {/* /signup button */}
                                     </div>
                                 </div>
@@ -80,7 +81,7 @@ export default function Pricing() {
                                         </ul>
                                         {/* /plan description */}
                                         {/* signup button */}
-                                        <a className="btn btn-main" href="#">Signup</a>
+                                        <Link className="btn btn-main" href="#">Signup</Link>
                                         {/* /signup button */}
                                     </div>
                                 </div>
@@ -106,7 +107,7 @@ export default function Pricing() {
                                         </ul>
                                         {/* /plan description */}
                                         {/* signup button */}
-                                        <a className="btn btn-main" href="#">Signup</a>
+                                        <Link className="btn btn-main" href="#">Signup</Link>
                                         {/* /signup button */}
                                     </div>
                                 </div>
@@ -152,7 +153,7 @@ export default function Pricing() {
                                             <input type="text" placeholder="Subject" className="form-control" name="subject" id="subject" />
                                         </div>
                                         <div className="form-group">
-                                            <textarea rows={6} placeholder="Message" className="form-control" name="message" id="message" defaultValue={""} />
+                                            <textarea rows={6} placeholder="Message" className="form-control" name="message" id="message" />
                                         </div>
                                         <div id="success" className="success">
                                             Thank you. The Mailman is on His Way :)
@@ -161,7 +162,7 @@ export default function Pricing() {
                                             Sorry, don't know what happened. Try later :(
                                         </div>
                                         <div id="cf-submit">
-                                            <input type="submit" id="contact-submit" className="btn btn-transparent" defaultValue="Submit" />
+                                            <input type="submit" id="contact-submit" className="btn btn-transparent" />
                                         </div>
                                     </form>
                                 </div>
@@ -193,11 +194,11 @@ export default function Pricing() {
                                         <i className="tf-ion-ios-contact" />
                                         <h4>We are social</h4>
                                         <ul className="list-inline social-icon">
-                                            <li className="list-inline-item"><a href><i className="tf-ion-social-facebook" /></a></li>
-                                            <li className="list-inline-item"><a href><i className="tf-ion-social-twitter" /></a></li>
-                                            <li className="list-inline-item"><a href><i className="tf-ion-social-linkedin" /></a></li>
-                                            <li className="list-inline-item"><a href><i className="tf-ion-social-dribbble" /></a></li>
-                                            <li className="list-inline-item"><a href><i className="tf-ion-social-instagram" /></a></li>
+                                            <li className="list-inline-item"><Link href="#"><i className="tf-ion-social-facebook" /></Link></li>
+                                            <li className="list-inline-item"><Link href="#"><i className="tf-ion-social-twitter" /></Link></li>
+                                            <li className="list-inline-item"><Link href="#"><i className="tf-ion-social-linkedin" /></Link></li>
+                                            <li className="list-inline-item"><Link href="#"><i className="tf-ion-social-dribbble" /></Link></li>
+                                            <li className="list-inline-item"><Link href="#"><i className="tf-ion-social-instagram" /></Link></li>
                                         </ul>
                                     </div>
                                 </div>

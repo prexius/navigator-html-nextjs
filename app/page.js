@@ -28,7 +28,18 @@ export default function Home() {
                 <Blog />
                 <Contact />
             </Layout>
-
         </>
     )
 }
+
+// Home
+//  1. Hero Video Popup Done
+//  2. Masonary 
+//  3. Testimonial Slider Done
+//  4. Google Map  Done
+
+// About
+// 1.Tab Done
+
+// Service
+// 1. Brand Slider

@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 export default function Team() {
@@ -33,24 +34,24 @@ export default function Team() {
                                         culpa odio.</p>
                                     <ul className="list-inline">
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-facebook" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-twitter" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-google-outline" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-dribbble" />
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -74,24 +75,24 @@ export default function Team() {
                                         culpa odio.</p>
                                     <ul className="list-inline">
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-facebook" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-twitter" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-google-outline" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-dribbble" />
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -115,24 +116,24 @@ export default function Team() {
                                         culpa odio.</p>
                                     <ul className="list-inline">
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-facebook" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-twitter" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-google-outline" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-dribbble" />
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -156,24 +157,24 @@ export default function Team() {
                                         culpa odio.</p>
                                     <ul className="list-inline">
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-facebook" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-twitter" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-google-outline" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#">
+                                            <Link href="#">
                                                 <i className="tf-ion-social-dribbble" />
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>

@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 export default function Pricing() {
@@ -38,7 +39,7 @@ export default function Pricing() {
                                 </ul>
                                 {/* /plan description */}
                                 {/* signup button */}
-                                <a className="btn btn-main" href="#">Signup</a>
+                                <Link className="btn btn-main" href="#">Signup</Link>
                                 {/* /signup button */}
                             </div>
                         </div>
@@ -64,7 +65,7 @@ export default function Pricing() {
                                 </ul>
                                 {/* /plan description */}
                                 {/* signup button */}
-                                <a className="btn btn-main" href="#">Signup</a>
+                                <Link className="btn btn-main" href="#">Signup</Link>
                                 {/* /signup button */}
                             </div>
                         </div>
@@ -90,7 +91,7 @@ export default function Pricing() {
                                 </ul>
                                 {/* /plan description */}
                                 {/* signup button */}
-                                <a className="btn btn-main" href="#">Signup</a>
+                                <Link className="btn btn-main" href="#">Signup</Link>
                                 {/* /signup button */}
                             </div>
                         </div>

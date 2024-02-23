@@ -1,3 +1,5 @@
+import Link from "next/link"
+import VideoPopup from "../elements/VideoPopup"
 
 
 export default function Hero() {
@@ -7,12 +9,7 @@ export default function Hero() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 mb-4 mb-lg-0">
-                            <div className="video-player">
-                                <img className="img-fluid rounded w-100" src="/images/slider/video-player-thumb.jpg" alt />
-                                <a className="play-icon" href="javascript:void(0)">
-                                    <i className="tf-ion-play" data-video="https://www.youtube.com/embed/g3-VxLQO7do?autoplay=1" />
-                                </a>
-                            </div>
+                            <VideoPopup />
                         </div>
                         <div className="col-lg-6">
                             <div className="block">
@@ -23,8 +20,8 @@ export default function Hero() {
                                     officia consequatur. </p>
                                 <ul className="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
                                     <li className="list-inline-item">
-                                        <a href="https://themefisher.com/" target="_blank" className="btn btn-main">Download
-                                            More</a>
+                                        <Link href="/https://themefisher.com/" target="_blank" className="btn btn-main">Download
+                                            More</Link>
                                     </li>
                                 </ul>
                             </div>

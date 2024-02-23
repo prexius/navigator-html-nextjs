@@ -36,7 +36,7 @@ export default function About() {
                                 </p></div>
                         </div>
                         <div className="col-md-5 order-md-2 order-1">
-                            <img src="/images/about/about-2.jpg" className="img-fluid rounded shadow w-100" alt />
+                            <img src="/images/about/about-2.jpg" className="img-fluid rounded shadow w-100" alt="" />
                         </div>
                     </div> {/* End row */}
                 </div> {/* End container */}
